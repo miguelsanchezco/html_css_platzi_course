@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handling Video</title>
+</head>
+<body>
+    <main>
+        <section>
+            <video controls preload='auto'> 
+                <!--preload  precargar video rapido-->
+                <source src="./skate-video.mp4#t=3,5">
+                <!--#t=3,5 siginifca que el video inicia en el seg 3 y finaliza en el 5-->
+                <source src="./skate-video.mp5#t=3,5">
+                <!--Aca puedo poner el video en varios formatos en caso de que
+                el navegador solo reconozca uno de ellos. mp4, wav, flv, etc-->
+            </video>
+            
+        </section>
+    </main>
+</body>
+</html>
