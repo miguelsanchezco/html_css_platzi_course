@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario</title>
+</head>
+<body>
+    <form action="">
+        <label for="hora">
+            <span>Hora</span>
+            <input type="time" id="hora" name="hora">
+            <!-- para enviar la info debemos crear name-->
+            <!--name es el mismo valor de id y for-->
+        </label>
+        <label for="dia">
+            <span>Dia</span>
+            <input type="date" id="dia" name="dia">
+        </label>
+        <label for="semana">
+            <span>Semana</span>
+            <input type="week" id="semana" name="semana">
+        </label>        
+        <label for="mes">
+            <span>Mes</span>
+            <input type="month" id="mes" name="mes">
+        </label>      
+        <input type="submit">
+    </form>
+    <br>
+    <form action="">
+        <label for="calendario">
+            <span>Calendario</span>
+            <input type="datetime-local" id="calendario" name='calendario'>
+            <input type="submit">
+        </label>
+    </form>
+    <br>
+    <form action="">
+        <label for="name">
+            <span>cual es tu nombre</span>
+            <input type="text" id='name' name='name' autocomplete="name" required>
+        </label>
+        <label for="email">
+            <span>cual es tu correo</span>
+            <input type="email" id='email' name='email' autocomplete="email" required>
+        </label>
+        <label for="country">
+            <span>cual es tu pais?</span>
+            <input type="text" id="country" name="country" autocomplete="country" required>
+        </label>
+        <label for="zip-code">
+            <span>cual es tu codigo postal</span>
+            <input type="text" name=zip-code id="zip-code" autocomplete="postal-code" required>
+        </label>
+        <input type="submit">
+    </form>
+</body>
+</html>
